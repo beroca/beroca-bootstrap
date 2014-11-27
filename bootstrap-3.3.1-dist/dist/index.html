@@ -28,27 +28,39 @@
 		<h2>
 			Section
 		</h2>
+		<hr>
 	
+		<!-- Stack the columns on mobile by making one full-width and the other half-width -->
 		<div class="row">
-			<div class="col-md-4">
-				<p>
-					col-md-4
-				</p>
-			</div>
-			
-			<div class="col-md-8">
-				<p>
-					col-md-8
-				</p>
+		  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+		  <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+		</div>
+		
+		<hr>
+
+		<div class="row">
+			<div class="col-xs-6 col-md-4">October 1991 - August 1997</div>
+			<div class="col-xs-12 col-md-8">
+				Bachelor of Science in Computer Science<br>
+				University of Granada, Granada, Spain<br>
+				Concentration: Software Development<br>
 			</div>
 		</div>
 
-		<div>
-			<p>
-				row 3
-			</p>
+		<hr>
+
+		<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+		<div class="row">
+		  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+		  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+		  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
 		</div>
 
+		<!-- Columns are always 50% wide, on mobile and desktop -->
+		<div class="row">
+		  <div class="col-xs-6">.col-xs-6</div>
+		  <div class="col-xs-6">.col-xs-6</div>
+		</div>
 	</div>
   </body>
 </html>
