@@ -1,4 +1,4 @@
-# beroca-bootstrap
+# hello-bootstrap
 sandbox repository to play with twitter bootstrap
 
 ## temporary entry point:
